@@ -47,9 +47,9 @@ H = None
 #Note: If using a different AWS account, this will need to be changed.
 #Follow the report for more information to setup an AWS S3 bucket and configure it to
 #allow python to send images via the cloud.
-ACCESS_KEY_ID = 'AKIAVG4EO2CTAJQBNXHK'
-ACCESS_SECRET_KEY = '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'
-BUCKET_NAME = 'tahmid-sajin'
+ACCESS_KEY_ID = '' #Enter the access key id
+ACCESS_SECRET_KEY = '' #Enter the access secret key
+BUCKET_NAME = '' #Enter the bucket name
 
 #Declare the AWS S3 bucket identification
 s3 = boto3.resource(
